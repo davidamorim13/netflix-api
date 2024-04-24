@@ -10,7 +10,7 @@ export class MoviesService {
 
   findAll() {
     return {
-      title: "Transformes",
+    title: "Transformes",
     category: "Ficção cientifica",
     image: "foto.png",
     year: 2023,

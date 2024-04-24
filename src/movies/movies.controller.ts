@@ -9,7 +9,11 @@ export class MoviesController {
 
   @Post()
   create(@Body() createMovieDto: CreateMovieDto) {
-    return this.moviesService.create(createMovieDto);
+    console.log(createMovieDto)
+    return {
+      "mensage":"Filme cadastrado com sucesso"
+    }
+    //return this.moviesService.create(createMovieDto);
   }
 
   @Get()
